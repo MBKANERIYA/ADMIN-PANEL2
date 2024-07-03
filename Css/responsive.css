@@ -1,0 +1,2074 @@
+@media (max-width:992px) {
+
+    /* ======================== header ========================  */
+
+
+    aside {
+        top: 0;
+        left: 0;
+        position: relative;
+        display: none;
+        width: 12.6%;
+        bottom: 0;
+        overflow-y: scroll;
+        z-index: 999y;
+        margin-top: 60px;
+    }
+
+    header {
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        position: relative;
+        position: fixed;
+        display: inline-block;
+        z-index: 9;
+        height: 63px;
+        background-color: white;
+    }
+
+
+    header .header-information img {
+        height: 32px;
+        width: 111.188px;
+        margin: 22px 44px;
+    }
+
+    header .fa-bars-staggered {
+        color: black;
+        font-size: 26px;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+
+    header input {
+        background-color: rgb(236, 240, 250);
+        border: 1px solid rgb(236, 240, 250);
+        border-radius: 20px;
+        width: 300px;
+        font-size: 14px;
+        padding: 5px 5px;
+        margin-left: 50px;
+    }
+
+    .header-data ul li {
+        list-style: none;
+        margin-left: 10px;
+    }
+
+    .french {
+        height: 5px;
+        width: 30px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-right: -30px;
+    }
+
+    .header-details {
+        display: none;
+    }
+
+    .header-details ul li a img {
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-right: -30px;
+    }
+
+    header .header-data ul li img {
+        height: 37px;
+        width: 37px;
+    }
+
+    .header-data ul img {
+        margin-top: 20px;
+        width: 111px;
+        height: 32px;
+    }
+
+
+    /* ========================= welcome ======================== */
+
+
+
+    .revenue {
+        margin-top: 20px;
+    }
+
+    .products .orders-img img {
+        width: 392px;
+        height: 30px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        margin-bottom: 20px;
+    }
+
+    .products .earnings-img img {
+        width: 392px;
+        height: 30px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        margin-bottom: 20px;
+    }
+
+    .welcome-data {
+        text-align: center;
+    }
+
+    .fa-angle-down::before {
+        content: "\f107";
+    }
+
+    .welcome .welcome-information img {
+        height: 72px;
+        width: 72px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 3px;
+        margin: 0 auto;
+        border: 2px solid #eae8f1;
+    }
+
+    .welcome .welcome-information h4 {
+        font-size: 13px;
+        color: #031b4e;
+    }
+
+    .welcome .welcome-information h5 {
+        font-size: 12px;
+        color: #7987a1;
+    }
+
+    .welcome-details {
+        text-align: start;
+        margin-left: 20px;
+    }
+
+    .welcome .welcome-details p {
+        font-size: 9px;
+        line-height: 26.5px;
+        letter-spacing: 0.5px;
+        color: #2c364c;
+    }
+
+    .welcome .welcome-details h6 a {
+        color: var(--black);
+        font-size: 12.5px;
+        font-family: "Roboto", sans-serif;
+        line-height: 33.5px;
+        transition: all 0.5s;
+    }
+
+    .welcome .welcome-details h6 .active,
+    .welcome .welcome-details h6 a:hover {
+        transition: all 0.5s;
+        color: rgb(1, 98, 232);
+    }
+
+    .welcome .welcome-details h6 a i {
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    .accordion-item {
+        border: none !important;
+    }
+
+    .accordion-button::after {
+        width: 22px;
+        height: 22px;
+    }
+
+    .accordion-button:focus {
+        box-shadow: none;
+    }
+
+    .accordion-body {
+        padding: 0;
+    }
+
+    .accordion-button {
+        padding: 10px;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .app-content {
+        background-color: rgb(236, 240, 250);
+        padding: 0px 20px;
+        padding: 10px 0px;
+    }
+
+    .breadcrumb-header {
+        margin-block-start: 24px;
+        margin-block-end: 24px;
+        width: 100%;
+    }
+
+    .main-content-title {
+        color: #242f48;
+        font-weight: 500;
+        font-size: 30px;
+        text-indent: -1px;
+        line-height: 1;
+        position: relative;
+        margin-block-end: 20px;
+    }
+
+    .welcome h2 {
+        color: #000;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1px;
+    }
+
+    .welcome p {
+        color: rgb(120, 130, 154);
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    /* .main-content {
+        display: none;
+    } */
+
+    .main-dashboard-header-right {
+        display: none !important;
+        flex-wrap: nowrap;
+    }
+
+    .first-star {
+        margin-left: 49px;
+    }
+
+    .first-star i {
+        color: rgb(251, 188, 11);
+    }
+
+    .Customer label {
+        color: var(--gray);
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .first-star span {
+        margin-left: 138px;
+    }
+
+    .main-dashboard-header-right>div label {
+        color: #78829a;
+        display: block;
+        margin-block-end: 0;
+    }
+
+    .Online {
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+
+    .Online label {
+        color: var(--gray);
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .Online h5 {
+        color: black;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+
+
+    /* ============================= products ============================ */
+
+    .products .orders-img img {
+        width: 392px;
+        height: 30px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+
+    }
+
+    .orders {
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        padding: 16px 16px 7px;
+        background-image: linear-gradient(to left, rgb(63, 238, 66) 0%, #77f379 100%) !important;
+
+    }
+
+    .orders h6 {
+        font-size: 11px;
+        color: var(--white);
+        line-height: 14.4px;
+
+    }
+
+    .orders h5 {
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .orders p {
+        font-size: 10px;
+        line-height: 18px;
+        color: var(--white);
+        opacity: 0.7;
+    }
+
+    /* .orders .orders-data span {
+        opacity: 0.7;
+    } */
+
+    .orders-data {
+        margin-bottom: 20px;
+    }
+
+    .products .earnings-img img {
+        width: 392px;
+        height: 30px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+    .earnings {
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        padding: 16px 16px 7px;
+        background-image: linear-gradient(45deg, #f93a5a, #f7778c) !important;
+    }
+
+    .earnings h6 {
+        font-size: 10px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .earnings h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .earnings p {
+        font-size: 10px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+    .products .total-earnings-img img {
+        width: 392px;
+        height: 30px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+    Track {
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        padding: 16px 16px 7px;
+        background-image: linear-gradient(to left, #48d6a8 0%, #029666 100%) !important;
+    }
+
+
+    .Track h6 {
+        font-size: 10px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .Track h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .Track p {
+        font-size: 10px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+    .products .sold-img img {
+        width: 392.5px;
+        height: 30px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+    .laravel {
+        padding: 16px 16px 7px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        background-image: linear-gradient(to left, #efa65f, #f76a2d) !important;
+    }
+
+    .laravel h6 {
+        font-size: 10px;
+        color: var(--white);
+        line-height: 14.4px;
+
+    }
+
+    .laravel h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .laravel p {
+        font-size: 10px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+
+
+
+    /* ============================= order-status ========================== */
+
+
+
+
+    .order-status {
+        background-color: #ecf0fa;
+    }
+
+    .revenue {
+        border: 1px solid white;
+        border-radius: 7px;
+        padding: 25px;
+        background-color: #fff;
+    }
+
+    .revenue h6 {
+        font-size: 11px;
+        color: rgb(36, 47, 72);
+        line-height: 13px;
+        margin-top: 10px;
+    }
+
+    .revenue p {
+        font-size: 11px;
+        line-height: 18px;
+        color: rgb(121, 135, 161);
+    }
+
+    .revenue h2 {
+        color: var(--black);
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+    .status-data {
+        border: 1px solid transparent;
+        padding: 20px;
+        border-radius: 7px;
+        height: 583px;
+        background-color: var(--white);
+    }
+
+    .status-data h6 {
+        color: rgb(36, 47, 72);
+        font-size: 12px;
+        line-height: 16.8px;
+    }
+
+    .status-data p {
+        color: rgb(121, 135, 161);
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .status .status-success h4 {
+        color: rgb(28, 39, 60);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .status .status-success p {
+        color: rgb(3, 27, 78);
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .status .status-pending h4 {
+        color: rgb(28, 39, 60);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .status .status-pending p {
+        color: rgb(3, 27, 78);
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .status .failed h4 {
+        color: rgb(28, 39, 60);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .status .failed p {
+        color: rgb(3, 27, 78);
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .status .status-success span {
+        height: 9px;
+        width: 9px;
+        display: block;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .status .status-pending span {
+        height: 9px;
+        width: 9px;
+        display: block;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .status .failed span {
+        height: 9px;
+        width: 9px;
+        display: block;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .countries .list-group-item span {
+        display: block;
+        text-align: end;
+        margin-top: -30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #1c273c;
+    }
+
+    .countries .list-group-item h5 {
+        font-size: 12px;
+        line-height: 21px;
+        color: rgb(33, 37, 41);
+    }
+
+    .based {
+        border: 1px solid white;
+        border-radius: 7px;
+        padding: 25px;
+        /* margin-top: 24px; */
+        background-color: #fff;
+    }
+
+    .recent-earnings {
+        border: 1px solid white;
+        border-radius: 7px;
+        padding: 30px 20px;
+        background-color: #fff;
+    }
+
+    .recent-earnings table {
+        border: 1px solid rgb(234, 232, 241);
+    }
+
+    .recent-earnings h6 {
+        font-size: 11px;
+        color: rgb(36, 47, 72);
+        line-height: 13px;
+        margin-top: 10px;
+    }
+
+    .recent-earnings p {
+        font-size: 10px;
+        line-height: 30px;
+        color: rgb(121, 135, 161);
+    }
+
+    .table-striped>tbody>tr:nth-of-type(odd)>* {
+        color: #031b4e;
+    }
+
+
+    .tx-invert {
+        font-size: 12px;
+        background-color: #ecf0fa !important;
+    }
+
+    table td {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    table th {
+        font-size: 10px;
+        color: #37374e !important;
+        line-height: 45px;
+    }
+
+    .tx-insert {
+        color: #22252f !important;
+    }
+
+    .tx-inter {
+        color: #242f48 !important;
+    }
+
+    .tx-bg {
+        background-color: #ecf0fa !important;
+    }
+
+    #chartdiv {
+        width: auto;
+        height: 470px;
+        color: rgb(1, 233, 5);
+    }
+
+
+
+
+    /* =============================== recent ============================== */
+
+    .recent {
+        background-color: #ecf0fa;
+    }
+
+    .recent .recent-customers {
+        padding: 50px;
+        border: 1px solid transparent;
+        background-color: var(--white);
+        border-radius: 7px;
+    }
+
+    .recent-customers h6 {
+        color: rgb(36, 47, 72);
+        font-size: 5px;
+        line-height: 20px;
+    }
+
+    .recent-customers p {
+        font-size: 10px;
+        color: rgb(121, 135, 161);
+        line-height: 25px;
+
+    }
+
+    .list-group-item {
+        padding: 18px 20px;
+    }
+
+    .recent-customers .list-group-item img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+
+    .recent-customers .list-group-item .text-success {
+        font-size: 11px;
+        color: rgb(34, 192, 60) !important;
+        line-height: 19.5px;
+        margin-left: 8px;
+    }
+
+    .recent-customers .list-group-item .text-danger {
+        font-size: 11px;
+        color: rgb(238, 51, 94) !important;
+        line-height: 19.5px;
+        margin-left: 8px;
+
+    }
+
+    .recent-customers .list-group-item h5 {
+        color: rgb(67, 79, 99);
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .recent-customers .list-group-item p {
+        color: rgb(121, 135, 161);
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+
+    .sales-activity {
+        border: 1px solid transparent;
+        border-radius: 7px;
+        padding: 26px;
+        background-color: #fff;
+    }
+
+    .sales-activity h6 {
+        color: rgb(36, 47, 72);
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .sales-activity p {
+        font-size: 10px;
+        line-height: 18px;
+        color: rgb(121, 135, 161);
+    }
+
+    .sales-activity .list-group-item i {
+        height: 37px;
+        width: 37px;
+        border-radius: 50%;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        line-height: 37px;
+        position: relative;
+        margin-right: 20px;
+    }
+
+    .sales-activity .list-group-item h5 {
+        font-size: 12px;
+        color: rgb(3, 27, 78);
+        line-height: 21px;
+
+    }
+
+    .sales-activity .list-group-item p {
+        color: rgb(121, 135, 161);
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .sales-activity .list-group-item span {
+        font-size: 11px;
+        color: rgb(121, 135, 161);
+        align-items: center;
+        margin-left: 50px !important;
+        display: block;
+        text-align: end;
+        margin-top: -30px;
+    }
+
+    .sales-activity .list-group-item::before {
+        display: inline-block;
+        height: 70%;
+        content: "";
+        position: absolute;
+        bottom: 0;
+        border-inline-start: 2px dotted #c0ccda;
+        margin: -22px 50px 55px -9px;
+        z-index: 0;
+    }
+
+    .recent-orders {
+        border: 1px solid transparent;
+        padding: 20px;
+        background-color: var(--white);
+        border-radius: 7px;
+        margin-bottom: 23px;
+        margin-top: 25px;
+    }
+
+    .recent-orders h5 {
+        color: rgb(36, 47, 72);
+        font-size: 11px;
+        line-height: 16.8px;
+    }
+
+    .recent-orders p {
+        font-size: 11px;
+        line-height: 18px;
+        color: rgb(121, 135, 161);
+    }
+
+    #round-chart {
+        height: 156.891px;
+        width: 200px;
+        margin-left: 100px;
+        margin: 0 auto;
+
+    }
+
+    .recent-orders-data span {
+        height: 8px;
+        width: 8px;
+        display: block;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .recent-orders-data p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .recent-orders-data h3 {
+        font-size: 18px;
+        color: rgb(28, 39, 60);
+        line-height: 25.2px;
+    }
+
+    .recent-orders-data h6 {
+        color: rgb(121, 135, 161);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information span {
+        height: 8px;
+        width: 8px;
+        display: block;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .recent-orders-information p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information h3 {
+        font-size: 19px;
+        color: rgb(28, 39, 60);
+        line-height: 25.2px;
+    }
+
+    .recent-orders-information h6 {
+        color: rgb(121, 135, 161);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .total-sales {
+        background-color: var(--white);
+        border: 1px solid transparent;
+        border-radius: 7px;
+        padding: 20px;
+    }
+
+    .total-sales .total p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .total-sales .total h5 {
+        font-size: 18px;
+        color: rgb(3, 27, 78);
+        line-height: 25.2px;
+    }
+
+    .total-sales .users p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .total-sales .users h5 {
+        font-size: 18px;
+        color: rgb(3, 27, 78);
+        line-height: 25.2px;
+    }
+
+    .total-sales .progress {
+        height: 4px;
+    }
+
+    .total-sales .progress .progress-bar {
+        width: 80%;
+        background-image: linear-gradient(to left, rgb(20, 192, 72) 0%, #03e30e 100%) !important;
+        border-radius: 20px !important;
+        position: relative;
+        overflow: visible !important;
+    }
+
+    .progress .progress-bar:after {
+        content: "";
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        box-shadow: 0 5px 5px #0003;
+        background: #fff;
+        position: absolute;
+        inset-inline-end: -5px;
+        top: -5px;
+        border: 4px solid #03e30e;
+    }
+
+    .users .progress {
+        height: 4px;
+    }
+
+    .users .progress .progress-bar {
+        width: 75px;
+        background-image: linear-gradient(45deg, #f93a5a, #f7778c) !important;
+        border-radius: 20px !important;
+        position: relative;
+    }
+
+    .users .progress .progress-bar:after {
+        border: 4px solid #ee335e;
+
+    }
+
+
+
+    /* ============================================ countries 
+============================================ */
+
+
+    .countries {
+        background-color: #ecf0fa;
+        padding: 0px 0px 20.8px;
+    }
+
+    .customer {
+        border: 1px solid transparent;
+        background-color: var(--white);
+        border-radius: 7px;
+        padding: 40px;
+    }
+
+    .customer h6 {
+        color: rgb(36, 47, 72);
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .customer p {
+        color: rgb(121, 135, 161);
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    #map {
+        margin: 0 auto;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width:768px) {
+
+
+    /* ======================== header ========================  */
+
+    header .fa-bars-staggered {
+        font-size: 25px;
+        color: black;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+
+    header input {
+        background-color: rgb(236, 240, 250);
+        border: 1px solid rgb(236, 240, 250);
+        border-radius: 20px;
+        width: 300px;
+        font-size: 16px;
+        padding: 5px 5px;
+        margin-left: 50px;
+    }
+
+    /* ========================= welcome ======================== */
+
+    .welcome .welcome-information h4 {
+        font-size: 13px;
+        color: #031b4e;
+    }
+
+    .welcome .welcome-information h5 {
+        font-size: 11px;
+        color: #7987a1;
+    }
+
+    .welcome .welcome-details p {
+        font-size: 9px;
+        line-height: 26.5px;
+        letter-spacing: 0.5px;
+        color: #2c364c;
+    }
+
+    .welcome .welcome-details h6 a {
+        color: var(--black);
+        font-size: 12.5px;
+        font-family: "Roboto", sans-serif;
+        line-height: 33.5px;
+        transition: all 0.5s;
+    }
+
+    .welcome .welcome-details h6 a i {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .main-content-title {
+        color: #242f48;
+        font-weight: 500;
+        font-size: 28px;
+        text-indent: -1px;
+        line-height: 1;
+        position: relative;
+        margin-block-end: 20px;
+    }
+
+    .welcome h2 {
+        color: #000;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1px;
+    }
+
+    .welcome p {
+        color: rgb(120, 130, 154);
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .Online label {
+        color: var(--gray);
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .Online h5 {
+        color: black;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+
+
+    /* ============ aside ============ */
+
+
+
+
+    .revenue {
+        border: 1px solid white;
+        border-radius: 7px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+
+    .recent .recent-customers {
+        padding: 30px;
+    }
+
+    .main-dashboard-header-right {
+        display: none;
+    }
+
+    .sales-activity {
+        border: 1px solid transparent;
+        border-radius: 7px;
+        padding: 26px;
+        margin-top: 20px;
+        /* margin-bottom: 20px; */
+        background-color: #fff;
+    }
+
+
+    .products .orders-img img {
+        width: 392px;
+        height: 30px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        margin-bottom: 20px;
+    }
+
+
+    /* ============================= products ============================ */
+
+
+    .orders h6 {
+        font-size: 10px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .orders h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .orders p {
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--white);
+        opacity: 0.7;
+    }
+
+    .earnings h6 {
+        font-size: 12px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .earnings h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .earnings p {
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+    .Track h6 {
+        font-size: 12px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .Track h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .Track p {
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+    .laravel h6 {
+        font-size: 12px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .laravel h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .laravel p {
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+
+
+    /* ============================= order-status ========================== */
+
+
+    .revenue h6 {
+        font-size: 13px;
+        color: rgb(36, 47, 72);
+        line-height: 13px;
+        margin-top: 10px;
+    }
+
+    .revenue p {
+        font-size: 12px;
+        line-height: 16px;
+        color: rgb(121, 135, 161);
+    }
+
+    .revenue h2 {
+        color: var(--black);
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+    .status-data h6 {
+        color: rgb(36, 47, 72);
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+
+    .status-data p {
+        color: rgb(121, 135, 161);
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .status .status-success h4 {
+        color: rgb(28, 39, 60);
+        font-size: 19px;
+        line-height: 25.2px;
+    }
+
+    .status .status-success p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .status .status-pending h4 {
+        color: rgb(28, 39, 60);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .status .status-pending p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .status .failed h4 {
+        color: rgb(28, 39, 60);
+        font-size: 21px;
+        line-height: 25.2px;
+    }
+
+    .status .failed p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .countries .list-group-item span {
+        display: block;
+        text-align: end;
+        margin-top: -30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #1c273c;
+    }
+
+    .countries .list-group-item h5 {
+        font-size: 14px;
+        line-height: 21px;
+        color: rgb(33, 37, 41)
+    }
+
+    .recent-earnings h6 {
+        font-size: 13px;
+        color: rgb(36, 47, 72);
+        line-height: 13px;
+        margin-top: 10px;
+    }
+
+    .recent-earnings p {
+        font-size: 12px;
+        line-height: 30px;
+        color: rgb(121, 135, 161);
+    }
+
+    .tx-invert {
+        font-size: 12px;
+        background-color: #ecf0fa !important;
+    }
+
+    table td {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    table th {
+        font-size: 11px;
+        color: #37374e !important;
+        line-height: 45px;
+    }
+
+
+
+
+    /* =============================== recent ============================== */
+
+
+
+    .recent-customers h6 {
+        color: rgb(36, 47, 72);
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .recent-customers p {
+        font-size: 12px;
+        color: rgb(121, 135, 161);
+        line-height: 25px;
+    }
+
+    .recent-customers .list-group-item .text-success {
+        color: rgb(34, 192, 60) !important;
+        font-size: 13px;
+        line-height: 19.5px;
+        margin-left: 8px;
+    }
+
+    .recent-customers .list-group-item .text-danger {
+        color: rgb(238, 51, 94) !important;
+        font-size: 13px;
+        line-height: 19.5px;
+        margin-left: 8px;
+    }
+
+    .recent-customers .list-group-item h5 {
+        color: rgb(67, 79, 99);
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .recent-customers .list-group-item p {
+        color: rgb(121, 135, 161);
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+
+    .sales-activity h6 {
+        color: rgb(36, 47, 72);
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .sales-activity p {
+        font-size: 12px;
+        line-height: 16px;
+        color: rgb(121, 135, 161);
+    }
+
+    .sales-activity .list-group-item i {
+        height: 37px;
+        width: 37px;
+        border-radius: 50%;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        line-height: 37px;
+        position: relative;
+        margin-right: 20px;
+    }
+
+    .sales-activity .list-group-item h5 {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .sales-activity .list-group-item p {
+        color: rgb(121, 135, 161);
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .sales-activity .list-group-item span {
+        font-size: 11px;
+        color: rgb(121, 135, 161);
+        align-items: center;
+        margin-left: 50px !important;
+        display: block;
+        text-align: end;
+        margin-top: -30px;
+    }
+
+    .recent-orders p {
+        font-size: 12px;
+        line-height: 18px;
+        color: rgb(121, 135, 161);
+    }
+
+    #round-chart {
+        height: 156.891px;
+        width: 200px;
+        margin-left: 100px;
+        margin: 0 auto;
+    }
+
+    .recent-orders-data p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .recent-orders-data h3 {
+        color: rgb(28, 39, 60);
+        font-size: 28px;
+        line-height: 25.2px;
+    }
+
+    .recent-orders-data h6 {
+        color: rgb(121, 135, 161);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information h3 {
+        color: rgb(28, 39, 60);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .recent-orders-information h6 {
+        color: rgb(121, 135, 161);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information h3 {
+        font-size: 18px;
+        color: rgb(28, 39, 60);
+        line-height: 25.2px;
+    }
+
+    .recent-orders-information h6 {
+        color: rgb(121, 135, 161);
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .total-sales .total p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .total-sales .total h5 {
+        color: rgb(3, 27, 78);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .total-sales .users p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .total-sales .users h5 {
+        color: rgb(3, 27, 78);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+
+
+
+    /* ============================================ countries ============================================ */
+
+
+    .customer h6 {
+        color: rgb(36, 47, 72);
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .customer p {
+        color: rgb(121, 135, 161);
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+
+
+    /* <!-- main-footer --> */
+
+
+
+
+    .toghter span {
+        font-size: 12px;
+        font-family: 'roboto', s;
+    }
+
+    .toghter a {
+        color: rgb(119, 232, 84);
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 12px;
+        font-family: 'rubik';
+        padding-right: 1px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+
+    .Track .total-target-img {
+        margin-bottom: 20px;
+    }
+
+    
+    /* ======================== header ========================  */
+
+    header .fa-bars-staggered {
+        font-size: 25px;
+        color: black;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+
+    header input {
+        background-color: rgb(236, 240, 250);
+        border: 1px solid rgb(236, 240, 250);
+        border-radius: 20px;
+        width: 300px;
+        font-size: 16px;
+        padding: 5px 5px;
+        margin-left: 50px;
+    }
+
+    /* ========================= welcome ======================== */
+
+    .welcome .welcome-information h4 {
+        font-size: 13px;
+        color: #031b4e;
+    }
+
+    .welcome .welcome-information h5 {
+        font-size: 11px;
+        color: #7987a1;
+    }
+
+    .welcome .welcome-details p {
+        font-size: 9px;
+        line-height: 26.5px;
+        letter-spacing: 0.5px;
+        color: #2c364c;
+    }
+
+    .welcome .welcome-details h6 a {
+        color: var(--black);
+        font-size: 12.5px;
+        font-family: "Roboto", sans-serif;
+        line-height: 33.5px;
+        transition: all 0.5s;
+    }
+
+    .welcome .welcome-details h6 a i {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .main-content-title {
+        color: #242f48;
+        font-weight: 500;
+        font-size: 28px;
+        text-indent: -1px;
+        line-height: 1;
+        position: relative;
+        margin-block-end: 20px;
+    }
+
+    .welcome h2 {
+        color: #000;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1px;
+    }
+
+    .welcome p {
+        color: rgb(120, 130, 154);
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .Online label {
+        color: var(--gray);
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .Online h5 {
+        color: black;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+
+
+    /* ============ aside ============ */
+
+
+
+
+    .revenue {
+        border: 1px solid white;
+        border-radius: 7px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+
+    .recent .recent-customers {
+        padding: 30px;
+    }
+
+    .main-dashboard-header-right {
+        display: none;
+    }
+
+    .sales-activity {
+        border: 1px solid transparent;
+        border-radius: 7px;
+        padding: 26px;
+        margin-top: 20px;
+        /* margin-bottom: 20px; */
+        background-color: #fff;
+    }
+
+
+    .products .orders-img img {
+        width: 392px;
+        height: 30px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        margin-bottom: 20px;
+    }
+
+
+    /* ============================= products ============================ */
+
+
+    .orders h6 {
+        font-size: 10px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .orders h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .orders p {
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--white);
+        opacity: 0.7;
+    }
+
+    .earnings h6 {
+        font-size: 12px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .earnings h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .earnings p {
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+    .Track h6 {
+        font-size: 12px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .Track h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .Track p {
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+    .laravel h6 {
+        font-size: 12px;
+        color: var(--white);
+        line-height: 14.4px;
+    }
+
+    .laravel h5 {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .laravel p {
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--white);
+    }
+
+
+
+    /* ============================= order-status ========================== */
+
+
+    .revenue h6 {
+        font-size: 13px;
+        color: rgb(36, 47, 72);
+        line-height: 13px;
+        margin-top: 10px;
+    }
+
+    .revenue p {
+        font-size: 12px;
+        line-height: 16px;
+        color: rgb(121, 135, 161);
+    }
+
+    .revenue h2 {
+        color: var(--black);
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+    .status-data h6 {
+        color: rgb(36, 47, 72);
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+
+    .status-data p {
+        color: rgb(121, 135, 161);
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .status .status-success h4 {
+        color: rgb(28, 39, 60);
+        font-size: 19px;
+        line-height: 25.2px;
+    }
+
+    .status .status-success p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .status .status-pending h4 {
+        color: rgb(28, 39, 60);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .status .status-pending p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .status .failed h4 {
+        color: rgb(28, 39, 60);
+        font-size: 21px;
+        line-height: 25.2px;
+    }
+
+    .status .failed p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .countries .list-group-item span {
+        display: block;
+        text-align: end;
+        margin-top: -30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #1c273c;
+    }
+
+    .countries .list-group-item h5 {
+        font-size: 14px;
+        line-height: 21px;
+        color: rgb(33, 37, 41)
+    }
+
+    .recent-earnings h6 {
+        font-size: 13px;
+        color: rgb(36, 47, 72);
+        line-height: 13px;
+        margin-top: 10px;
+    }
+
+    .recent-earnings p {
+        font-size: 12px;
+        line-height: 30px;
+        color: rgb(121, 135, 161);
+    }
+
+    .tx-invert {
+        font-size: 12px;
+        background-color: #ecf0fa !important;
+    }
+
+    table td {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    table th {
+        font-size: 11px;
+        color: #37374e !important;
+        line-height: 45px;
+    }
+
+
+
+
+    /* =============================== recent ============================== */
+
+
+
+    .recent-customers h6 {
+        color: rgb(36, 47, 72);
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .recent-customers p {
+        font-size: 12px;
+        color: rgb(121, 135, 161);
+        line-height: 25px;
+    }
+
+    .recent-customers .list-group-item .text-success {
+        color: rgb(34, 192, 60) !important;
+        font-size: 13px;
+        line-height: 19.5px;
+        margin-left: 8px;
+    }
+
+    .recent-customers .list-group-item .text-danger {
+        color: rgb(238, 51, 94) !important;
+        font-size: 13px;
+        line-height: 19.5px;
+        margin-left: 8px;
+    }
+
+    .recent-customers .list-group-item h5 {
+        color: rgb(67, 79, 99);
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .recent-customers .list-group-item p {
+        color: rgb(121, 135, 161);
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+
+    .sales-activity h6 {
+        color: rgb(36, 47, 72);
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .sales-activity p {
+        font-size: 12px;
+        line-height: 16px;
+        color: rgb(121, 135, 161);
+    }
+
+    .sales-activity .list-group-item i {
+        height: 37px;
+        width: 37px;
+        border-radius: 50%;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        line-height: 37px;
+        position: relative;
+        margin-right: 20px;
+    }
+
+    .sales-activity .list-group-item h5 {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .sales-activity .list-group-item p {
+        color: rgb(121, 135, 161);
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .sales-activity .list-group-item span {
+        font-size: 11px;
+        color: rgb(121, 135, 161);
+        align-items: center;
+        margin-left: 50px !important;
+        display: block;
+        text-align: end;
+        margin-top: -30px;
+    }
+
+    .recent-orders p {
+        font-size: 12px;
+        line-height: 18px;
+        color: rgb(121, 135, 161);
+    }
+
+    #round-chart {
+        height: 156.891px;
+        width: 200px;
+        margin-left: 100px;
+        margin: 0 auto;
+    }
+
+    .recent-orders-data p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .recent-orders-data h3 {
+        color: rgb(28, 39, 60);
+        font-size: 28px;
+        line-height: 25.2px;
+    }
+
+    .recent-orders-data h6 {
+        color: rgb(121, 135, 161);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information p {
+        color: rgb(3, 27, 78);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information h3 {
+        color: rgb(28, 39, 60);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .recent-orders-information h6 {
+        color: rgb(121, 135, 161);
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .recent-orders-information h3 {
+        font-size: 18px;
+        color: rgb(28, 39, 60);
+        line-height: 25.2px;
+    }
+
+    .recent-orders-information h6 {
+        color: rgb(121, 135, 161);
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .total-sales .total p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .total-sales .total h5 {
+        color: rgb(3, 27, 78);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .total-sales .users p {
+        color: rgb(3, 27, 78);
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .total-sales .users h5 {
+        color: rgb(3, 27, 78);
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+
+
+
+    /* ============================================ countries ============================================ */
+
+
+    .customer h6 {
+        color: rgb(36, 47, 72);
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .customer p {
+        color: rgb(121, 135, 161);
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+
+
+    /* <!-- main-footer --> */
+
+
+
+
+    .toghter span {
+        font-size: 12px;
+        font-family: 'roboto', s;
+    }
+
+    .toghter a {
+        color: rgb(119, 232, 84);
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 12px;
+        font-family: 'rubik';
+        padding-right: 1px;
+        text-align: center;
+    }
+
+}
